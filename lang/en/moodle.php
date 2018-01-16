@@ -581,7 +581,7 @@ $string['emailalreadysent'] = 'A password reset email has already been sent. Ple
 $string['emailactive'] = 'Email activated';
 $string['emailagain'] = 'Email (again)';
 $string['emailconfirm'] = 'Confirm your account';
-$string['emailconfirmation'] = 'Hi {$a->firstname},
+$string['emailconfirmation'] = 'Hi {$a->firstname}';
 
 A new account has been requested at \'{$a->sitename}\'
 using your email address.
@@ -619,6 +619,7 @@ $string['emaildisplaycourse'] = 'Allow only other course members to see my email
 $string['emaildisplayhidden'] = 'Email hidden';
 $string['emaildisplayno'] = 'Hide my email address from everyone';
 $string['emaildisplayyes'] = 'Allow everyone to see my email address';
+$string['emailempty'] = 'This user has no email address';
 $string['emailenable'] = 'This email address is enabled';
 $string['emailenableclick'] = 'Click here to re-enable all email being sent to this address';
 $string['emailexists'] = 'This email address is already registered.';
