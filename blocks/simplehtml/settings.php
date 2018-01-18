@@ -12,6 +12,5 @@ $settings->add(new admin_setting_configcheckbox(
             '0'
         ));
 
-$allowHTML = $CFG->Allow_HTML;
-
 $allowHTML = get_config('simplehtml', 'Allow_HTML');
+$allowHTML = $CFG->Allow_HTML;
